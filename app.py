@@ -11,83 +11,101 @@ def home():
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>TMR Gents PG</title>
         <style>
-            body {
-                font-family: Arial, sans-serif;
-                margin: 0;
-                padding: 20px;
-                background: #f4f6f8;
-                color: #222;
-            }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #eaf4ff;
+        color: #123;
+    }
 
-            .container {
-                max-width: 900px;
-                margin: auto;
-            }
+    .container {
+        max-width: 900px;
+        margin: auto;
+    }
 
-            h1 {
-                text-align: center;
-            }
+    h1 {
+        text-align: center;
+        color: #0056b3;
+        font-size: 36px;
+    }
 
-            h2 {
-                margin-top: 30px;
-            }
+    h2 {
+        color: #0077cc;
+        margin-top: 30px;
+        border-left: 5px solid #0056b3;
+        padding-left: 10px;
+    }
 
-            .card {
-                background: white;
-                padding: 18px;
-                margin: 15px 0;
-                border-radius: 12px;
-                box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            }
+    .card {
+        background: white;
+        padding: 18px;
+        margin: 15px 0;
+        border-radius: 12px;
+        border: 1px solid #cce4ff;
+        box-shadow: 0 4px 10px rgba(0,86,179,0.15);
+    }
 
-            .price {
-                font-size: 20px;
-                font-weight: bold;
-            }
+    .price {
+        font-size: 20px;
+        font-weight: bold;
+        color: #0056b3;
+    }
 
-            .menu-table {
-                width: 100%;
-                border-collapse: collapse;
-                background: white;
-            }
+    .menu-table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
 
-            .menu-table th,
-            .menu-table td {
-                border: 1px solid #ddd;
-                padding: 12px;
-                text-align: left;
-                vertical-align: top;
-            }
+    .menu-table th,
+    .menu-table td {
+        border: 1px solid #cce4ff;
+        padding: 12px;
+        text-align: left;
+        vertical-align: top;
+    }
 
-            .menu-table th {
-                background: #eeeeee;
-            }
+    .menu-table th {
+        background: #0077cc;
+        color: white;
+    }
 
-            .map-button {
-                display: inline-block;
-                padding: 12px 18px;
-                background: #222;
-                color: white;
-                text-decoration: none;
-                border-radius: 8px;
-            }
+    .map-button {
+        display: inline-block;
+        padding: 12px 18px;
+        background: #0056b3;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+    }
 
-            @media (max-width: 600px) {
-                body {
-                    padding: 10px;
-                }
+    .map-button:hover {
+        background: #003d80;
+    }
 
-                .menu-table {
-                    font-size: 13px;
-                }
+    @media (max-width: 600px) {
+        body {
+            padding: 10px;
+        }
 
-                .menu-table th,
-                .menu-table td {
-                    padding: 8px;
-                }
-            }
-        </style>
-    </head>
+        h1 {
+            font-size: 28px;
+        }
+
+        .menu-table {
+            font-size: 13px;
+        }
+
+        .menu-table th,
+        .menu-table td {
+            padding: 8px;
+        }
+    }
+</style>
+         </head>
 
     <body>
     <div class="container">
