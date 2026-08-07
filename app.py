@@ -12,11 +12,11 @@ def home():
         <title>TMR Gents PG</title>
         <style>
     body {
-        font-family: Arial, sans-serif;
+        font-family: 'Arial', sans-serif;
         margin: 0;
         padding: 20px;
-        background: #eaf4ff;
-        color: #123;
+        background: #f8f8f8;
+        color: #222;
     }
 
     .container {
@@ -26,86 +26,83 @@ def home():
 
     h1 {
         text-align: center;
-        color: #0056b3;
-        font-size: 36px;
+        color: #0b1f3a;
+        font-size: 38px;
+        font-weight: bold;
     }
 
     h2 {
-        color: #0077cc;
-        margin-top: 30px;
-        border-left: 5px solid #0056b3;
-        padding-left: 10px;
+        color: #c49a2c;
+        margin-top: 35px;
+        border-bottom: 2px solid #c49a2c;
+        padding-bottom: 8px;
     }
 
     .card {
         background: white;
-        padding: 18px;
-        margin: 15px 0;
-        border-radius: 12px;
-        border: 1px solid #cce4ff;
-        box-shadow: 0 4px 10px rgba(0,86,179,0.15);
+        padding: 20px;
+        margin: 18px 0;
+        border-radius: 15px;
+        border-left: 5px solid #c49a2c;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.12);
     }
 
     .price {
-        font-size: 20px;
+        font-size: 22px;
         font-weight: bold;
-        color: #0056b3;
+        color: #0b1f3a;
     }
 
     .menu-table {
         width: 100%;
         border-collapse: collapse;
         background: white;
-        border-radius: 10px;
+        border-radius: 12px;
         overflow: hidden;
-    }
-
-    .menu-table th,
-    .menu-table td {
-        border: 1px solid #cce4ff;
-        padding: 12px;
-        text-align: left;
-        vertical-align: top;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.12);
     }
 
     .menu-table th {
-        background: #0077cc;
+        background: #0b1f3a;
         color: white;
+        padding: 14px;
+    }
+
+    .menu-table td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
     }
 
     .map-button {
         display: inline-block;
-        padding: 12px 18px;
-        background: #0056b3;
+        padding: 13px 22px;
+        background: #c49a2c;
         color: white;
         text-decoration: none;
-        border-radius: 8px;
+        border-radius: 25px;
+        font-weight: bold;
     }
 
     .map-button:hover {
-        background: #003d80;
+        background: #a47d1d;
     }
 
-    @media (max-width: 600px) {
+    @media(max-width:600px){
         body {
             padding: 10px;
         }
 
         h1 {
-            font-size: 28px;
+            font-size: 30px;
         }
 
         .menu-table {
             font-size: 13px;
         }
-
-        .menu-table th,
-        .menu-table td {
-            padding: 8px;
-        }
     }
 </style>
-         </head>
+        </head>
 
     <body>
     <div class="container">
